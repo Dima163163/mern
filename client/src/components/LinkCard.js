@@ -5,13 +5,13 @@ const LinkCard = ({ link }) => {
 			<h2>Ссылка</h2>
 			<p>
 				Ваша ссылка:{' '}
-				<a href={link.to} target="_blank" rel="noopener noreferrer">
+				<a href={link.to} target="_blank" rel="noreferrer">
 					{link.to}
 				</a>
 			</p>
 			<p>
 				Откуда:{' '}
-				<a href={link.from} target="_blank" rel="noopener noreferrer">
+				<a href={link.from} target="_blank" rel="noreferrer">
 					{link.from}
 				</a>
 			</p>
