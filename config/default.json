@@ -1,0 +1,6 @@
+{
+	"port": 3001,
+	"jwtSecret": "dima youtube mern",
+	"mongoUri": "mongodb+srv://dima:dima1234@cluster0.smtc30d.mongodb.net/app?retryWrites=true&w=majority&appName=Cluster0",
+	"baseUrl": "http://localhost:3001"
+}
